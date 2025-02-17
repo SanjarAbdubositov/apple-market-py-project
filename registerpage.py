@@ -12,10 +12,10 @@ window.title("Register")
 window.geometry("400x400")
 #
 title = Label(text="Register", font="blue")
-title.place(x=145, y=25, width=120, height=40)
+title.place(x=140, y=25, width=120, height=40)
 
 text = Label(text="O'zingiz haqingizda ma'lumotlarni to'ldiring")
-text.place(x=65, y=65, width=300, height=40)
+text.place(x=60, y=65, width=300, height=40)
 #
 first_name = Entry(relief="solid")
 first_name.place(x=25, y=115, width=140, height=30)
