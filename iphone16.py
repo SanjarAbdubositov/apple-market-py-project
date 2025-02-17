@@ -1,9 +1,9 @@
 from tkinter import *
 from PIL import Image, ImageTk
-import subprocess
+import os
 
-def open_homepage_file():
-    subprocess.run(["python", "homepage.py"])
+def exit():
+    os._exit(0)
 
 window = Tk()
 window.title("iPhone 16 | Apple savdo")
@@ -29,4 +29,6 @@ info.place(x=300, y=90, width=315, height=200)
 price = Label(window, text="Narxi: 799$", font=("Arial", 14, "bold"))
 price.place(x=300, y=250, width=315, height=60)
 
+exit_button = Button(text="Chiqish", font=("Arial", 14), command=exit)
+exit_button.place(x=600, y=30, width=70, height=40)
 window.mainloop()
