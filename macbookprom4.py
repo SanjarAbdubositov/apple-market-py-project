@@ -6,7 +6,7 @@ def exit():
     os._exit(0)
 
 window = Tk()
-window.title("iPhone 16 | Apple savdo")
+window.title("Macbook Pro M4 | Apple savdo")
 window.geometry("700x400")
 
 welcome = Label(window, text="Macbook Pro M4", font=("Arial", 16, "bold"))

@@ -158,7 +158,7 @@ macbookprom4_label1.place(x=560, y=400, width=150, height=175)
 macbookprom4_label2 = Label(text="Macbook Pro M4", font=('Arial', 12), bg="white")
 macbookprom4_label2.place(x=560, y=564, width=150, height=40)
 
-macbookprom4_button = Button(text="Batafsil", font=('Arial', 12), command=open_macbookprom1_file)
+macbookprom4_button = Button(text="Batafsil", font=('Arial', 12), command=open_macbookprom4_file)
 macbookprom4_button.place(x=560, y=604, width=150, height=40)
 #
 exit_button = Button(text="Chiqish", font=("Arial", 14), command=open_exit_file)
