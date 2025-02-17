@@ -116,7 +116,7 @@ macbookprom1_button.place(x=20, y=604, width=150, height=40)
 # macbook pro m2
 image_path = "img/macbookprom2.png"
 macbookprom2 = Image.open(image_path)
-macbookprom2 = macbookprom1.resize((150, 150))
+macbookprom2 = macbookprom2.resize((150, 150))
 photo_macbookprom2 = ImageTk.PhotoImage(macbookprom2)
 
 macbookprom2_label1 = Label(window, image=photo_macbookprom2, bg="#f0f0f0")
@@ -149,7 +149,7 @@ macbookprom3_button.place(x=380, y=604, width=150, height=40)
 # macbook pro m4
 image_path = "img/macbookprom4.png"
 macbookprom4 = Image.open(image_path)
-macbookprom4 = macbookprom1.resize((150, 150))
+macbookprom4 = macbookprom4.resize((150, 150))
 photo_macbookprom4 = ImageTk.PhotoImage(macbookprom4)
 
 macbookprom4_label1 = Label(window, image=photo_macbookprom4, bg="#f0f0f0")
