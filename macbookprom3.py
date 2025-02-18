@@ -21,9 +21,8 @@ image_label = Label(window, image=photo, bg="#f0f0f0")
 image_label.place(x=20, y=70, width=275, height=310)
 
 info = Label(window, text="""Chiqarilgan sana: 2023-yil
-Protsessor: Apple M3 (3nm, 8 yoki 10 yadro)
+Protsessor: Apple M3
 Operativ xotira: 8GB-36GB
-Grafika: Dynamic Caching texnologiyasi bilan 10/12/16 yadroli GPU
 Batareya quvvati: ~22 soatgacha""", font=("Arial", 13, "normal"))
 info.place(x=300, y=90, width=315, height=200)
 price = Label(window, text="Narxi: 1300$", font=("Arial", 14, "bold"))
